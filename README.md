@@ -23,7 +23,7 @@ https://github.com/Lakmi94/ReactNewsManagerDevTeam1
     • Deliver APK and Code repository as zip uploaded to moodle
 
 >[!CAUTION]
->Electron version should be "electron": "39.2.1", and not "electron": "3^9.2.1" 
+>Electron version should be "electron": "39.2.1", and not "electron": "^39.2.1" 
 
 
 To install and run the program, follow these steps
@@ -41,9 +41,9 @@ To install and run the program, follow these steps
 11. After both web and desktop packages are installed, open a new terminal window or use the same terminals and navigate to the packages/web directory. 
 
 ## To run Web:
-12. In the packages/web folder `run npm run dev` and the project will open locally on http://localhost:5174/
-13. Keep the website running, while proceeding to the desktop section. 
-14. In a new terminal window in the web directory, `run npm run build` to build the web version. This will be needed to build the desktop, and mobile packages. The built files will be saved to packages/web/dist. 
+1. In the packages/web folder run `npm run dev` and the project will open locally on http://localhost:5174/
+2. Keep the website running, while proceeding to the desktop section. 
+3. In a new terminal window in the web directory, run  `npm run build` to build the web version. This will be needed to build the desktop, and mobile packages. The built files will be saved to packages/web/dist. 
  
 
  
@@ -64,7 +64,7 @@ To install and run the program, follow these steps
 5. Once the device/emulator is running, run `adb reverse tcp:5173 tcp:5173 && NODE_ENV=development DEVICE=mobile DEV_SERVER_URL=http://localhost:5173 npx cap run android` to run the mobile app on the emulator in android studio. 
 6. To build the android app to obtain an APK file, to install on devices, open a new terminal window, and run the following command `(cd packages/web && npm run build) && (cd packages/mobile && npx cap copy android) && (cd packages/mobile/android && ./gradlew assembleDebug)`
 7.  If that does not work, run the following commands separately
-    1. . `cd packages/web && npm run build` => to build the web version 1st
+    1. `cd packages/web && npm run build` => to build the web version 1st
     2. `cd packages/mobile && npx cap copy android` => to copy the finished website code directly into the Android app's folder
     3. `cd packages/mobile/android && ./gradlew assembleDebug` => creates the finished installable app-debug.apk file
 8. The executable apk will be saved in ReactNewsManagerDevTeam1/packages/mobile/android/app/build/outputs/apk/debug/app-debug.apk
