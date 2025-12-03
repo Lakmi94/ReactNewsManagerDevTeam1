@@ -9,7 +9,7 @@ Authors
 
 Github repository
 
-https://github.com/nasimelizeh/ReactNewsReaderDevTeam1
+https://github.com/Lakmi94/ReactNewsManagerDevTeam1
 
 
 • Write a reduced Newspaper Reader application in React with the following elements (6
