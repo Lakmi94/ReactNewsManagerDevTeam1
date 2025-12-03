@@ -51,6 +51,7 @@ To run Desktop:
 5. Run the command npm run electronBuild
 6. The built desktop version will be saved in the dist folder in the root. Navigate to ReactNewsManagerDevTeam1/dist/desktop on finder or file manager and open the EIT News paper-1.0.0-arm64.dmg file to install the native app on your machine. 
 7. Once the app is installed, move it to applications and you can open it from there. 
+
 To run Mobile:
 1. Open a new terminal window on VS code and navigate to the mobile folder by running cd packages/mobile.
 2. Assuming that the Android SDK, platform-tools, and emulator paths are added to the shell configuration file, open a terminal config file and run source ~/.zshrc to refresh it.  
