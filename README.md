@@ -1,4 +1,4 @@
-PUI - Final Assignment for Multiplatform Module
+#PUI - Final Assignment for Multiplatform Module
 
 This repository contains the solutions for the Programming of User Interfaces React exercises. All tasks are done in groups of three.
 Authors
@@ -29,10 +29,10 @@ To install and run the program, follow these steps
 3. Open the repository with VS code. 
 4. Open a new terminal on VS code at the root directory of the project.
 5. Run npm install to install the packages in the root directory.
-6. Run cd packages/web to navigate to the web directory
-7. In the web directory, run npm install to install the web related packages. 
-8. Go back to the packages directory by running cd ../ or open a new terminal window and navigate to the packages  directory.
-9. From the packages directory, navigate to desktop directory by running cd desktop
+6. Run `cd packages/web` to navigate to the web directory
+7. In the web directory, `run npm install` to install the web related packages. 
+8. Go back to the packages directory by running `cd ../` or open a new terminal window and navigate to the packages  directory.
+9. From the packages directory, navigate to desktop directory by running `cd desktop`
 10. Once inside the desktop directory, run npm install to install electron related packages.
 11. After both web and desktop packages are installed, open a new terminal window or use the same terminals and navigate to the packages/web directory. 
 To run Web:
