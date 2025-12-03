@@ -60,7 +60,7 @@ To install and run the program, follow these steps
 5. Once the device/emulator is running, run `adb reverse tcp:5173 tcp:5173 && NODE_ENV=development DEVICE=mobile DEV_SERVER_URL=http://localhost:5173 npx cap run android` to run the mobile app on the emulator in android studio. 
 6. To build the android app to obtain an APK file, to install on devices, open a new terminal window, and run the following command `(cd packages/web && npm run build) && (cd packages/mobile && npx cap copy android) && (cd packages/mobile/android && ./gradlew assembleDebug)`
 7.  If that does not work, run the following commands separately
-    a. `cd packages/web && npm run build` => to build the web version 1st
-b. `cd packages/mobile && npx cap copy android` => to copy the finished website code directly into the Android app's folder
-c. `cd packages/mobile/android && ./gradlew assembleDebug` => creates the finished installable app-debug.apk file
+    1. . `cd packages/web && npm run build` => to build the web version 1st
+    2. `cd packages/mobile && npx cap copy android` => to copy the finished website code directly into the Android app's folder
+    3. `cd packages/mobile/android && ./gradlew assembleDebug` => creates the finished installable app-debug.apk file
 8. The executable apk will be saved in ReactNewsManagerDevTeam1/packages/mobile/android/app/build/outputs/apk/debug/app-debug.apk
