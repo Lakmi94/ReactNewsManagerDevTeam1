@@ -1,0 +1,16 @@
+appId: com.example.reactelectron
+icon: ./Logo.png
+directories:
+  output: release
+files:
+  - packages/desktop/dist/**
+  - packages/dist-web/**
+mac:
+  target: dmg
+  icon: ./Logo.icns
+win:
+  target: nsis
+  icon: ./Logo.ico
+linux:
+  target: AppImage
+  icon: ./Logo.png

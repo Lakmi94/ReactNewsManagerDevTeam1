@@ -1,0 +1,44 @@
+.category-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2);
+}
+.category-button:hover {
+ transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+.category-badge{ 
+color:#0056b3;
+font-weight: bold;
+background-color: #F4F4F4;
+padding: 0px 8px;
+border-radius: 20px;
+margin-bottom: 10px;
+}
+
+.article-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.article-subtitle {
+  text-align: center;
+  font-weight: bold;
+  color: #666;
+  line-height: 1.6;
+  margin: 1rem 0 1.5rem 0;
+  font-style: italic;
+}
+
