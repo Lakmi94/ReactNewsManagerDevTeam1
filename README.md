@@ -12,8 +12,7 @@ Github repository
 https://github.com/Lakmi94/ReactNewsManagerDevTeam1
 
 
-    • Write a reduced Newspaper Reader application in React with the following elements (6
-points)
+    • Write a reduced Newspaper Reader application in React with the following elements (6points)
     • Main Page that shows all articles with thumbnail and abstract
     • Filtering by category
     • Click on article to see detail view with article image and full text
