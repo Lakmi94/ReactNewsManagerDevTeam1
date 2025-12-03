@@ -22,7 +22,7 @@ https://github.com/Lakmi94/ReactNewsManagerDevTeam1
     • Application has Custom Logo
     • Deliver APK and Code repository as zip uploaded to moodle
 
->[!IMPORTANT]
+>[!CAUTION]
 >Electron version should be "electron": "39.2.1", and not "electron": "3^9.2.1" 
 
 
