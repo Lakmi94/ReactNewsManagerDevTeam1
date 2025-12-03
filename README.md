@@ -22,6 +22,10 @@ https://github.com/Lakmi94/ReactNewsManagerDevTeam1
     • Application has Custom Logo
     • Deliver APK and Code repository as zip uploaded to moodle
 
+>[!IMPORTANT]
+>Electron version should be "electron": "39.2.1", and not "electron": "3^9.2.1" 
+
+
 To install and run the program, follow these steps
 
 1. Go to git repository https://github.com/Lakmi94/ReactNewsManagerDevTeam1
@@ -64,3 +68,4 @@ To install and run the program, follow these steps
     2. `cd packages/mobile && npx cap copy android` => to copy the finished website code directly into the Android app's folder
     3. `cd packages/mobile/android && ./gradlew assembleDebug` => creates the finished installable app-debug.apk file
 8. The executable apk will be saved in ReactNewsManagerDevTeam1/packages/mobile/android/app/build/outputs/apk/debug/app-debug.apk
+
